@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact Us — Sephora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Sephora</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="collections.html">New Arrivals</a>
+      <a href="#">Most Wanted</a>
+      <a href="collections.html">Collections</a>
+      <a href="contactus.html">Contact Us</a>
+    </nav>
+    <button class="menu-btn" aria-label="menu">☰</button>
+  </header>
+
+  <main style="padding:2rem 1.25rem;max-width:900px;margin:0 auto">
+   <h1>Contact Us</h1>
+    <p>Have a question? Send us a message.</p>
+    <form style="display:grid;gap:.75rem;margin-top:1rem">
+      <input placeholder="Your name" required>
+      <input type="email" placeholder="Your email" required>
+      <textarea placeholder="Message" rows="6" required></textarea>
+      <button type="submit" class="cta">Send Message</button>
+    </form>
+  </main>
+
+  
+
+  <script>
+    document.querySelector('form')?.addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thanks — message sent (demo)');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,Arial,sans-serif;line-height:1.45;color:#111;background:#fff}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+.promo{background:#111;color:#fff;text-align:center;padding:.45rem;font-size:.95rem}
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.25rem;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff;z-index:20}
+.logo{font-weight:700;font-size:1.25rem}
+.nav{display:flex;gap:1rem}
+.nav a{padding:.35rem .5rem;border-radius:6px}
+.menu-btn{display:none;background:transparent;border:0;font-size:1.2rem}
+
+.hero{display:flex;align-items:center;justify-content:space-between;padding:3rem 1.25rem;background:linear-gradient(180deg,#f8f7ff,white)}
+.hero-inner h1{font-size:1rem;color:#666}
+.hero-inner h2{font-size:2.25rem;margin:.25rem 0 1rem}
+.cta{display:inline-block;background:#111;color:#fff;padding:.6rem 1rem;border-radius:8px}
+
+.brands{padding:2rem 1.25rem}
+.brand-grid{display:flex;gap:1rem;flex-wrap:wrap}
+.brand{flex:1 1 120px;display:flex;align-items:center;gap:.75rem;padding:.5rem;border-radius:8px}
+
+.features{background:#fafafa;padding:2rem 1.25rem}
+.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
+.feature-grid h4{margin-bottom:.5rem}
+
+.products{padding:2rem 1.25rem}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
+.product{background:#fff;border:1px solid #eee;padding:.75rem;border-radius:8px}
+.shop-btn{display:inline-block;margin-top:.5rem;color:#111}
+
+.most-wanted,.offer{padding:2rem 1.25rem}
+.wanted-row{display:flex;gap:1rem;flex-wrap:wrap}
+.sale{flex:1;min-width:150px;padding:.5rem;border-radius:8px;text-align:center}
+
+.newsletter{background:#111;color:#fff;padding:2rem 1.25rem;text-align:center}
+#subscribe-form{display:flex;gap:.5rem;max-width:520px;margin:1rem auto}
+#subscribe-form input{flex:1;padding:.6rem;border-radius:6px;border:0}
+#subscribe-form button{padding:.6rem 1rem;border-radius:6px;border:0;background:#fff;color:#111}
+
+.site-footer{padding:2rem 1.25rem;border-top:1px solid #eee;text-align:left}
+.footer-inner{max-width:1000px;margin:0 auto}
+
+@media (max-width:800px){
+  .nav{display:none}
+  .menu-btn{display:block}
+  .hero{padding:2rem 1rem}
+}
