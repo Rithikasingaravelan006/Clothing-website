@@ -26,7 +26,7 @@ JavaScript – Interactivity and dynamic elements.
 
 🚀 Demo
 
-Live Website: Clothing Website
+Live Website: https://rithikasingaravelan006.github.io/Clothing-website/
 
 🛠️ Customization
 
